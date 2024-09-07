@@ -1,0 +1,22 @@
+footer {
+    padding: 4rem 0;
+    background: #fff;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0.5rem;
+}
+
+.footer-icons svg {
+    fill: #6b6b6b;
+}
+
+.footer-icons a:hover svg {
+    fill: #000;
+    width: 20px;
+}

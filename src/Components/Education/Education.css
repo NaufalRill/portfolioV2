@@ -1,0 +1,59 @@
+#skills {
+    padding: var(--sectionPadding);
+    background-color: #f8f8f8;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.education {
+    display: flex;
+    gap: 2rem;
+}
+
+.education .line {
+    padding: 0 .7rem;
+}
+
+.education .line div {
+    width: 2px;
+    height: 100%;
+    background: #e5e5e5;
+    position: relative;
+}
+
+.education-info p {
+    margin: .6rem 0 1.4rem;
+}
+
+.education-year {
+    margin-bottom: 3rem;
+}
+
+.education .line div:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+.skills-right ul {
+    line-height: 2rem;
+    padding: 0 1rem;
+}
+
+.skills-right p {
+    text-align: justify;
+}
