@@ -21,9 +21,7 @@ const Services = () => {
                             </svg>
                         </div>
                         <h4>UI/UX Design</h4>
-                        <p>I am a Front-End Web Developer with a solid background in HTML and CSS,
-                        skilled in JavaScript, and
-                        experienced with the React framework.</p>
+
                     </div>
 
                     {/*Services 2*/}
@@ -38,9 +36,6 @@ const Services = () => {
                             </svg>
                         </div>
                         <h4>HTML & CSS</h4>
-                        <p>I am a Front-End Web Developer with a solid background in HTML and CSS,
-                        skilled in JavaScript, and
-                        experienced with the React framework.</p>
                     </div>
 
                     {/*Services 3*/}
@@ -62,9 +57,6 @@ const Services = () => {
                         </svg>
                         </div>
                         <h4>JavaScript & JavaScript <br/> Framework</h4>
-                        <p>I am a Front-End Web Developer with a solid background in HTML and CSS,
-                        skilled in JavaScript, and
-                        experienced with the React framework.</p>
                     </div>
                 </div>
 
