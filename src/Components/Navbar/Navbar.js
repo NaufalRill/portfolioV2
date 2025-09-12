@@ -15,7 +15,7 @@ const Navbar = () => {
             <li><a href="#portfolios">Portfolio</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="/resume.pdf" target="_blank">
+            <li><a href="https://drive.google.com/file/d/1lj5mXUAnyGdVdbTcRHRnY3TD8c5LmaXO/view?usp=sharing" >
                 <button class="btn">Resume</button>
               </a></li>
           </ul>
