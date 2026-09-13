@@ -35,7 +35,7 @@ const Services = () => {
                                         .5-.224.5-.5s-.224-.5-.5-.5h-2c-.276 0-.5.224-.5.5s.224.5.5.5h2z" />
                             </svg>
                         </div>
-                        <h4>HTML & CSS</h4>
+                        <h4>Web Development</h4>
                     </div>
 
                     {/*Services 3*/}
@@ -56,7 +56,7 @@ const Services = () => {
                             .596c-.552 0-1-.447-1-1s.448-1 1-1 1 .447 1 1-.448 1-1 1z" />
                         </svg>
                         </div>
-                        <h4>JavaScript & JavaScript <br/> Framework</h4>
+                        <h4>Mobile App Development</h4>
                     </div>
                 </div>
 

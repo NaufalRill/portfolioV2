@@ -4,6 +4,7 @@ import PortfolioImage1 from '../Image/portfolio1.png'
 import PortfolioImage2 from '../Image/portfolio2.png'
 import PortfolioImage3 from '../Image/portfolio3.jpg'
 import PortfolioBonsai from '../Image/portfoliobonsai.jpg'
+import PortfolioMobile from '../Image/portfoliosmarttime.png'
 
 const Portfolio = () => {
   return (
@@ -35,7 +36,10 @@ const Portfolio = () => {
               <div>Typescript</div>
               <div>Laravel</div>
               <div>Tailwind CSS</div>
+              <div>PostgreSQL</div>
             </div>
+
+
 
             <p>Developed a comprehensive, web-based Content Management System (CMS) for PT Pemuda Handal Teknologi, 
               a company that sells and rents websites. </p>
@@ -44,7 +48,7 @@ const Portfolio = () => {
         </div>
         
          {/*Portfolio 2*/}
-                 <div className="portfolio">
+          <div className="portfolio">
           <div className="portfolio-cover">
           <img src={PortfolioBonsai} alt=''/>
           </div>
@@ -66,6 +70,35 @@ const Portfolio = () => {
 
             <p>Developed a responsive, web-based e-commerce platform and company profile for 
               Artha Bonsai Vio, a business specializing in the curation and sale of premium bonsai trees</p>
+
+          </div>
+        </div>
+
+          {/*Portfolio mobile*/}
+          <div className="portfolio">
+          <div className="portfolio-cover">
+          <img src={PortfolioMobile} alt=''/>
+          </div>
+          <div className="portfolio-info">
+            <div className="portfolio-title">
+              <h4>SmartTime - Mobile App</h4>
+              <a href="https://github.com/NaufalRill/SmartTime" className="portfolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 
+                    .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z" />
+                </svg>
+              </a>
+            </div>
+
+            <div className="portfolio-tags">
+              <div>React Native</div>
+              <div>Expo</div>
+              <div>Express JS</div>
+              <div>MySQL</div>
+
+            </div>
+ 
+            <p>Developed SmartTime, a streamlined time management app designed to help students structure their daily routines.</p>
 
           </div>
         </div>
