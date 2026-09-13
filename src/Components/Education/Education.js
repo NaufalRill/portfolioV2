@@ -59,10 +59,10 @@ const Education = () => {
 
           <div class="skills-list">
             <ul>
-              <li>HTML 5</li>
-              <li>CSS 3</li>
-              <li>JavaScript</li>
               <li>React JS</li>
+              <li>Typescript</li>
+              <li>Laravel</li>
+              <li>PostgreSQL</li>
               <li>Figma</li>
             </ul>
           </div>

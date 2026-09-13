@@ -10,11 +10,10 @@ const Hero = () => {
         <div className="hero-left">
           <h3 className="intro-title">Hello! My name is</h3>
           <h1 className="hero-name">Naufal Ghifari Ramadhana</h1>
-          <p>I am a Front-End Web Developer with a solid background in HTML and CSS, skilled in JavaScript, and
-            experienced with the React framework.
-            I have worked in the UI/UX department and am eager to apply my abilities in crafting responsive,
-            user-centric web applications
-            within a dynamic development team.</p>
+          <p>I am an Informatics undergraduate and Web Developer experienced in the complete digital product lifecycle. 
+            Combining a strong foundation in UI/UX design with technical proficiency in the React and Laravel 
+            ecosystems, I specialize in architecting scalable, responsive web applications and SaaS solutions 
+            from initial requirement gathering to deployment.</p>
         </div>
         <div className="hero-right">
           <img src={hero} alt="" height="350px" />
